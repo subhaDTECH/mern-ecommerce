@@ -1,0 +1,153 @@
+.profile__container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile__left__side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin: 20px;
+   
+}
+.profile__left__side >img{
+    width: 300px;
+    height: 300px;
+    /* object-fit: cover; */
+    border-radius: 50%;
+    padding: 30px;
+    
+}
+.edit__btn{
+    background-color: #8bbe1b;
+    /* background-color:tomato; */
+    padding: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin:5px;
+}
+.edit__btn:hover{
+    background-color: #303f10;
+    transition: all 0.5s;
+}
+.edit__btn2:hover{
+    background-color: #303f10;
+    transition: all 0.5s;
+}
+
+.edit__btn2{
+    padding: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    background-color:#8bbe1b;
+    cursor: pointer;
+}
+
+.profile__right__side{
+    /* background-color: red; */
+    padding: 20px;
+    width: 50%;
+    margin: 20px;
+    height: auto;
+}
+.name__box{
+    padding: 20px;
+  
+}
+.Email__box{
+    padding: 20px;
+   
+}
+.joined__box{
+    padding: 20px;
+    
+}
+p{
+    padding: 10px 0;
+}
+
+.cahnge__btn__box{
+    display: flex;
+    flex-direction: column;
+   
+}
+.cahnge__btn__box >button{
+    margin: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+  
+}
+
+
+
+
+@media (max-width:800px){
+    .profile__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.profile__left__side{
+ 
+    width: 100%;
+    
+    
+}
+
+
+.profile__left__side >img{
+ 
+    border-radius: 50%;
+    padding: 30px;
+    margin-top: 300px;
+    
+}
+.cahnge__btn__box{
+    display: flex;
+    flex-direction: column;
+    width: 70% !important;
+   
+    padding: 30px;
+}
+.cahnge__btn__box >button{
+    margin: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+.profile__right__side{
+    /* background-color: red; */
+    padding: 20px;
+    width: 90%;
+}
+
+
+
+.profile__left__side{
+   margin: 20px;
+   height: 100%;
+}
+
+.edit__btn2{
+   padding: 10px;
+   text-align: center;
+}
+
+}

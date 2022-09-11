@@ -1,0 +1,53 @@
+.myorder__containeer{
+    width:100%;
+    height:100%;
+
+}
+.myorder__containeer> h3{
+   text-align: center;
+   margin: 20px;
+   padding: 10px;
+   color:#8bbe1b;
+}
+.order__card{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    margin:20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.6);
+
+}
+.ordeer__info > h1{
+    color:#8bbe1b;
+}
+.order__card >img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+   
+}
+
+.Deliveer__track{
+    background-color:chartreuse;
+    padding: 10px 20px;
+}
+
+.mini_box{
+    width:100px;
+    height:130px;
+}
+.mini_box >img{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+}
+
+@media (max-width:800px) {
+    .order__card{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    
+    }
+}

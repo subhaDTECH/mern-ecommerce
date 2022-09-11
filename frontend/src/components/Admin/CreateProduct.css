@@ -1,0 +1,50 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    
+    
+}
+.from__conatiner{
+    width:60vw;
+    height: auto;
+    /* background-color: red; */
+    position: absolute;
+    left: 30%;
+    top:5%;
+}
+.from__conatiner >h3{
+    color:#000;
+}
+.from__conatiner> div{
+    margin: 10px;
+    width: 100%;
+}
+.from__conatiner> div >input{
+    width: 50%;
+    outline: none;
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+   
+}
+
+
+@media (max-width:700px){
+    .from__conatiner> div >input{
+        width: 70%;
+       
+       
+    }
+
+    .from__conatiner{
+        width:80vw;
+        height: auto;
+        padding: 20px;
+         left: 0;
+         margin: 20px;
+         box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    }
+
+    
+}

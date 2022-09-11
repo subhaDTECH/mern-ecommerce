@@ -1,0 +1,134 @@
+.productDetail_container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+   
+    /* background-color:red; */
+
+}
+.product__right{
+    flex:0.5;
+    
+    padding: 0px 10px;
+    
+    /* border: 2px solid black; */
+}
+
+.product__left{
+    width: 300px;
+    height: 300px;
+    margin: 20px  auto;
+    
+    text-align: center;
+}
+.product__left > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img_box >img{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product__right > h2{
+    padding: 10px 0px;
+}
+.rating_box{
+    margin: 20px 0px;
+}
+.input__box >input{
+    padding: 6px 0px;
+    text-align: center;
+    width: 4%;
+    text-align: center;
+
+
+}
+.input__box >button{
+    padding: 10px;
+    background-color: rgb(25, 25, 25);
+    color: #fff;
+    cursor: pointer;
+}
+.addtocart__btn{
+    margin: 20px 0px;
+    padding: 10px;
+}
+.addtocart__btn >button{
+    padding: 10px 20px;
+    width: 140px;
+    text-align: center;
+    color: #fff;
+    background-color: #8bbe1b;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+}
+.addtocart__btn >button:hover{
+    background-color: #1d2113;
+    color: #fff;
+    transition: all 0.5s;
+}
+.price_box{
+    padding: 10px;
+}
+.stock__status{
+    margin: 10px  0px;
+    padding: 10px;
+    width: 50%;
+}
+.product__decs{
+    padding: 10px;
+
+}
+
+.reviewbox___container{
+    display: flex;
+    overflow-x: scroll !important;
+    margin-top: 200px;
+    flex-direction: row;
+    position: relative;
+    width:100%;
+    border-top: 2px solid grey;
+    text-align: center;
+   
+}
+.reviewbox___container > h3{
+    text-align: center;
+    margin: 20px auto;
+}
+.review_text{
+    text-align: center ;
+     padding: 10px 20px;
+     width: 20%;
+    margin-top: 80px;
+    margin:0 auto;
+    background-color: #8bbe1b;
+    margin-bottom: 30px;
+   
+   
+}
+
+
+
+
+@media (max-width:800px){
+    .productDetail_container{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.reviewbox___container{
+     flex-direction: column;
+   
+}
+}

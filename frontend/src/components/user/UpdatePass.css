@@ -1,0 +1,105 @@
+.update_pass__container{
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #efefef;
+}
+.update__pass__form{
+    width: 30vw;
+    height: 70vh;
+    background-color: #fff;
+}
+.update__pass__form > form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+
+.update__pass__form>form>div{
+   
+     display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width: 90%;
+    /* background-color: red; */
+    text-align: center;
+    margin:5px auto;
+    /* background-color: red; */
+    border: 1px solid grey;
+
+}
+
+.update__pass__form>form>div >input{
+    padding: 10px ;
+    margin: 10px;
+    flex: 1;
+    border: none;
+    outline: none;
+     font-size: 18px;
+
+}
+.update__pass__text{
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.update__pass__form>form>button{
+    width: 90%;
+    background-color: #8bbe1b;
+    padding: 10px;
+    margin: 30px  auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+.update__pass__form>form>button:hover{
+    background-color: #546c21;
+    transition: all 0.5s;
+}
+.MuiSvgIcon-root{
+    margin: 20px  0px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+@media (max-width:900px){
+
+    .update__pass__form{
+        width: 70vw;
+       
+    }
+    .update__pass__form>form>div >input{
+        padding: 0px;
+        width:100%;
+       
+    
+    }
+}
+
+
+@media (max-width:400px){
+
+    .update__pass__form{
+        width: 80vw;
+       
+    }
+    .update__pass__form>form>div >input{
+        padding: 0px ;
+        width:100%;
+       
+    
+    }
+}

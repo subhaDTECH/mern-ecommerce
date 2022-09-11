@@ -1,0 +1,16 @@
+const express=require("express")
+
+const router=express.Router()
+const {IsLogin,IsAdmin}=require('../middleware/userAuth')
+const {
+    checkout,
+    paymentVerify ,
+    saveOrderData
+   }
+ = require("../controlllers/paymentControllers.js")
+
+router.route('/checkout').post(checkout);
+router.route('/payment/verify').post(paymentVerify);
+
+
+module.exports=router;

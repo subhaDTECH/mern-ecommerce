@@ -1,0 +1,182 @@
+.cart__container{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+
+}
+.cart__box{
+    width: 80%;
+    height: auto;
+    /* background-color: aqua; */
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    flex: start;
+    align-items: flex-start;
+   
+}
+.cart__box__heading{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8bbe1b;
+    padding: 10px 20px;
+    margin-left: 20px;
+    text-align: center;
+   
+}
+.product__containers{
+     display: flex;
+     width: 93%;
+     height: 200px;
+   
+    flex-direction: row;
+     margin-left: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px -4px grey;
+    border: 1px solid grey;
+    color:#000 !important;
+   
+    align-items: flex-start;
+    
+}
+.product__middle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.input__box{
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+.input__tag{
+    width: 100%;
+}
+.product__left >img{
+    width: 100px;
+    height:auto;
+    align-items: flex-start;
+    float: left;
+    margin: 10px;
+}
+
+
+.removecart__btn{
+    margin:10px 0px;
+}
+.removecart__btn>button{
+    padding: 10px 20px;
+    background-color: #8bbe1b;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.removecart__btn>button:hover{
+    color: #fff;
+    background-color: #2d4005;
+    transition: all 0.5s;
+}
+
+.cart__quantity{
+    color:black !important;
+}
+
+.total__price__box{
+    padding: 20px;
+    margin: 30px auto ;
+    width: 80%;
+    /* text-align: center; */
+    background-color: rgb(22, 21, 21);
+    display: flex-start;
+    color: #fff;
+}
+.total__price__box__btn {
+    padding: 10px 20px;
+    background-color:rgb(95, 6, 6);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    color: #fff;
+}
+.total__price__box >button:hover{
+    color: #fff;
+    background-color:rgb(206, 52, 52);
+    transition: all 0.5s;
+}
+
+.product__left{
+    flex: 0.3;
+    display: flex;
+    align-items: flex-start;
+    border: none;
+    flex-direction: column;
+  
+    right: 30px;
+    float: left;
+    left: 0;
+  
+   
+}
+.ifo{
+   
+    float: left;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+.product__middle{
+  flex: 1;
+}
+.produect__right{
+    flex: 0.2;
+}
+.product{
+    flex: 0.6;
+}
+.quentity{
+    flex: 0.2;
+}
+.totalprice{
+    flex: 0.2;
+}
+
+
+@media (max-width:900px){
+
+    .cart__container{
+        width:90%;
+        margin: 0;
+        padding: 20px;
+      
+    }
+    .product__containers{
+        display: flex;
+         flex-direction: column;
+         font-size: 25px;
+         align-items: center;
+         flex: start;
+         width: 100%;
+         flex:1;
+         
+     }
+     .cart__box__heading{
+        width: 90%;
+        display: flex;
+       
+       
+    }
+
+    .product__left >img{
+      padding: 20px;
+    }
+}

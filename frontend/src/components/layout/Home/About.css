@@ -1,0 +1,91 @@
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.about__hero{
+    width:100%;
+    height:60vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.about__hero > h1{
+
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.about__hero > p{
+    font-size: 30px;
+    color: #8bbe1b;
+    transition: 0.5s ease-in-out;
+}
+
+.about__hero > h1:hover{
+
+color: #8bbe1b;
+}
+.about__hero > p:hover{
+  color: #d4e3b4;
+}
+
+.row{
+    width:100%;
+    max-width:1040px;
+    margin: 30px auto;
+}
+
+.content__row{
+    margin: 50px 0px;
+    display: flex;
+    width: 100%;
+    height: auto;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.card{
+    width: 30% !important;
+    margin: 10px !important;
+}
+
+@media (max-width:900px){
+    .about__hero > p{
+     padding: 20px;
+     margin: 20px;
+
+}
+.text{
+    font-size: 25px;
+}
+.about__hero > h1{
+
+  padding: 10px 10px;
+}
+
+.card{
+    width: 90% !important;
+    margin: 40px !important;
+}
+
+p{
+    font-size: 24px;
+    padding: 20px;
+}
+.content__box > h3{
+    font-size: 30px;
+    padding: 20px;
+}
+
+}

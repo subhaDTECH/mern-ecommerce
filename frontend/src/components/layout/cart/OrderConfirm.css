@@ -1,0 +1,128 @@
+.order__confirm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.order__left__side{
+    flex: 0.4;
+    overflow-y: scroll;
+    height: 70vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 30px;
+    padding-left: 20px;
+}
+.order__right__side{
+    flex: 0.3;
+     align-items: center;
+     justify-content: flex-start;
+    height: auto;
+    padding: 20px;
+}
+.each__item{
+    padding: 20px;
+    margin-left: 20px;
+    border: 1px solid grey;
+    margin: 20px;
+}
+.each__item img{
+    width: 100px;
+    height: 100px;
+}
+.order__shipping__data{
+    padding: 20px;
+}
+.order__paymant__btn{
+    padding: 10px 20px;
+    width: 140px;
+    background-color:#8bbe1b;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 10px;
+    
+    
+}
+.order__paymant__btn:hover{
+  
+    background-color:#384b0f;
+    transition: 0.5s;
+    
+}
+.order__shipping__data > h3{
+   padding: 3px 0px;
+}
+
+.price__money{
+    font-size: 34px;
+
+    
+}
+
+.price{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pay__btn{
+    width: 50%;
+    padding: 15px 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #8bbe1b;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+.pay__btn:hover{
+    background-color: #384b0f;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  ::-webkit-scrollbar{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  @media (max-width:900px){
+
+    .order__confirm{
+      
+        display: flex;
+      flex-direction: column;
+    
+    }
+    .order__right__side{
+        flex: 1;
+      
+    }
+    p{
+        font-size: 27px;
+        color: grey;
+    }
+    .pay__btn{
+        width: 50%;
+        padding: 15px 30px;
+        text-align: center;
+        color: #fff;
+        background-color: #8bbe1b;
+        border: none;
+        cursor: pointer;
+        margin: 10px;
+    }
+
+    .order__left__side{
+        flex: 1;
+       
+    }
+  }

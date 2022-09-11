@@ -1,0 +1,22 @@
+.order__containeer{
+    width:100vw;
+    height:100vh;
+    display:grid;
+    place-items: center;
+    color: rgba(88, 122, 55, 0.561);
+}
+.order__box{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.link{
+    padding: 20px;
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+    margin: 10px;
+    
+}
